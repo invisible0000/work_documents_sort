@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Python: create_dummy_files.py",
+            "type": "shell",
+            "command": "${config:python.defaultInterpreterPath} create_dummy_files.py",
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Run Python: file_organizer.py",
+            "type": "shell",
+            "command": "${config:python.defaultInterpreterPath} file_organizer.py",
+            "group": "build",
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 파일 생성 스크립트 디버그",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/create_dummy_files.py",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "name": "Python: 파일 정리 스크립트 디버그",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/file_organizer.py",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

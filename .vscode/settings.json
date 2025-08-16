@@ -1,0 +1,10 @@
+{
+    // Python 가상환경 자동 적용
+    "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    // Copilot 지침 파일 자동 적용
+    "github.copilot.instructionsFiles": [
+        "${workspaceFolder}/.github/copilot-instructions.md"
+    ]
+}

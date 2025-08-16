@@ -6,5 +6,10 @@
     // Copilot 지침 파일 자동 적용
     "github.copilot.instructionsFiles": [
         "${workspaceFolder}/.github/copilot-instructions.md"
-    ]
+    ],
+    // 모든 터미널(코파일럿 포함)에서 venv가 자동 활성화되도록 환경 변수 지정
+    "terminal.integrated.env.windows": {
+        "VIRTUAL_ENV": "${workspaceFolder}\\.venv",
+        "PATH": "${workspaceFolder}\\.venv\\Scripts;${env:PATH}"
+    }
 }
